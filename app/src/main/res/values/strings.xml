@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="title_text">Play game, earn points!</string>
+    <string name="button_digit">Nr.</string>
+    <string name="points">points</string>
+    <string name="subtitle_text">digit 1 + </string>
+    <string name="subtitle1_text">digit 2  == 10 (+1 point) </string>
+    <string name="subtitle2_text"> == 10? (+1 point)</string>
+    <string name="play">Play</string>
+    <string name="stop">stop the game</string>
+</resources>
