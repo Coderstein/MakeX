@@ -53,7 +53,7 @@ public class GameMainActivity extends AppCompatActivity implements View.OnClickL
     }
 
 
-    public void stopTheGame(View v) {   // btn_turnoff method
+    public void stopTheGame(View v) {   // stop the game method 
      
             for (int i = 0; i < 9; i++) {
                 buttons[i].setEnabled(false);
@@ -76,7 +76,7 @@ public class GameMainActivity extends AppCompatActivity implements View.OnClickL
         }
     }
 
-    public void startTheGame(View v) {   // bnt_start method
+    public void startTheGame(View v) {   // start the game method
         generateNumbers();
         pointView.setText(String.valueOf(0));
 
