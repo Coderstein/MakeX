@@ -87,7 +87,7 @@ public class GameMainActivity extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View v) { // OnClickListeners method implementation
         clickNumber1++;
-        do {
+        do { // working great also without do while
             Button button = (Button) v;
             int buttonText = Integer.parseInt(button.getText().toString());
             result += buttonText;
