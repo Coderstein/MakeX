@@ -54,7 +54,7 @@ public class GameMainActivity extends AppCompatActivity implements View.OnClickL
 
 
     public void stopTheGame(View v) {   // btn_turnoff method
-        if (buttons.length != 0) {
+     
             for (int i = 0; i < 9; i++) {
                 buttons[i].setEnabled(false);
                 buttons[i].setText(R.string.button_digit);
@@ -63,7 +63,7 @@ public class GameMainActivity extends AppCompatActivity implements View.OnClickL
                 points = 0;
                 subtitle_view.setText(R.string.subtitle_text);
                 subtitleView1.setText(R.string.subtitle1_text);
-            }
+            
 
         }
     }
@@ -87,7 +87,6 @@ public class GameMainActivity extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View v) { // OnClickListeners method implementation
         clickNumber1++;
-        do { // working great also without do while
             Button button = (Button) v;
             int buttonText = Integer.parseInt(button.getText().toString());
             result += buttonText;
@@ -112,7 +111,6 @@ public class GameMainActivity extends AppCompatActivity implements View.OnClickL
                 Log.v("Clicks", String.valueOf(clickNumber1));
                 points--;
                 pointView.setText(points + "");
-            }
-        } while (buttons.length == 0);
+            }      
     }
 }
