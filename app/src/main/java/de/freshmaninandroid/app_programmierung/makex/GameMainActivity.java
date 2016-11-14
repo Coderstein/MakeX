@@ -26,7 +26,6 @@ public class GameMainActivity extends AppCompatActivity implements View.OnClickL
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_main);
-        System.out.print("it is alive");
         pointView = (TextView) findViewById(R.id.point_view);   //Now we determine findViewById
         //  for textView(s)
         titleView = (TextView) findViewById(R.id.title_view);
