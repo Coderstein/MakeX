@@ -13,7 +13,7 @@ public class GameMainActivity extends AppCompatActivity implements View.OnClickL
     public int clickNumber1;
     public int clickNumber2;
     int points;
-    Button[] buttons = new Button[9]; // Create an Array of Buttons
+    Button[] buttons = new Button[8]; // Create an Array of Buttons
     Button buttonOff;
     TextView pointView;
     TextView titleView;
